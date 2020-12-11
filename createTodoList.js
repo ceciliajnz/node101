@@ -3,13 +3,22 @@ const moment = require('moment')
 
 const todoList = [
     {
-        field: 'read'
+        text: 'Walk Dog',
+        date: moment('11.12.2020, 8:30', 'DD.MM.YYYY, hh:mm'),
+        id: 1,
+        done: false
     },
     {
-        field: 'write'
+        text: 'Buy Food',
+        date: moment('12.12.2020, 14:00', 'DD.MM.YYYY, hh:mm'),
+        id: 2,
+        done: false
     },
     {
-        field: 'sleep'
+        text: 'Buy Drinks',
+        date: moment('12.12.2020, 14:00', 'DD.MM.YYYY, hh:mm'),
+        id: 3,
+        done: false
     }
 
 ]
